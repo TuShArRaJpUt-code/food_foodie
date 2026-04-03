@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "912237378642",
+    "firebase_url": "https://foodorderingapp-4e968-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "foodorderingapp-4e968",
+    "storage_bucket": "foodorderingapp-4e968.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912237378642:android:62b68b6423b06b133fb38b",
+        "android_client_info": {
+          "package_name": "com.example.mini_food_ordering"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912237378642-an1o3caoonfa6va98c27pddksvotbpuv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mini_food_ordering",
+            "certificate_hash": "5c52cc6df86b513b98aee74294302960104905d5"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_bfG11mltDHCJv9TrjLVT4zxE341PsW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
