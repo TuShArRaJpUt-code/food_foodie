@@ -1,16 +1,41 @@
-# mini_food_ordering
+# 🍔 Mini Food Ordering App
 
-A new Flutter project.
+A Flutter-based mobile application that demonstrates a basic food ordering workflow using Firebase as the backend.
 
-## Getting Started
+This project focuses on implementing core app features like authentication, state management, and cart handling in a clean and structured way.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+(Add your app screenshots here)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🚀 Features
+
+- User Authentication (Firebase Email/Password)
+- Persistent Login (Auto-login)
+- Food Menu Display
+- Add to Cart / Remove from Cart
+- Real-time Price Calculation
+- Simple Order Placement Flow
+- State Management using Provider
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**
+- Flutter (Dart)
+
+**State Management**
+- Provider
+
+**Backend**
+- Firebase Authentication
+- Firebase Realtime Database / Firestore
+
+---
+
+## 📂 Project Structure
