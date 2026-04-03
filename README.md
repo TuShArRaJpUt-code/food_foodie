@@ -8,7 +8,7 @@ This project focuses on implementing core app features like authentication, stat
 
 ## 📱 Screenshots
 
-<img width="250" height="350" alt="image" src="https://github.com/user-attachments/assets/b3f5d35f-408c-491e-be9b-442686f380c2" />
+<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/b3f5d35f-408c-491e-be9b-442686f380c2" />
 
 
 ---
