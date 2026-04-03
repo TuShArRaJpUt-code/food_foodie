@@ -58,3 +58,43 @@ This project focuses on implementing core app features like authentication, stat
 ---
 
 ## 📂 Project Structure
+lib/
+│
+├── models/
+│   ├── cart_model.dart
+│   └── food_model.dart
+│
+├── provider/
+│   ├── cart_provider.dart
+│   └── darkmode_theme_provider.dart
+│
+├── screens/
+│   ├── cart_screen.dart
+│   ├── home_screen.dart
+│   ├── user_login_screen.dart
+│   └── user_signup_screen.dart
+│
+├── services/
+│   ├── firebase_service.dart
+│   ├── logout.dart
+│   └── splash_logic.dart
+│
+├── settings/
+│   ├── profile_settings_screen/
+│   │   └── profile_screen.dart
+│   └── settings.dart
+│
+├── firebase_options.dart
+└── main.dart
+
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone Repository
+git clone https://github.com/your-username/mini_food_ordering.git
+cd mini_food_ordering
+
+###2. Install Dependencies
+flutter pub get
