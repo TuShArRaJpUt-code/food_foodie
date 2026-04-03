@@ -2,62 +2,74 @@
 
 A Flutter-based mobile application that demonstrates a basic food ordering workflow using Firebase as the backend.
 
-This project focuses on implementing core app features like authentication, state management, and cart handling in a structured and maintainable way.
+This project focuses on implementing core features like authentication, state management, and cart handling in a structured and maintainable way.
 
 ---
 
 ## 📱 Screenshots
 
 ### 🏠 Home Page (Light Mode)
+
 <img src="https://github.com/user-attachments/assets/b3f5d35f-408c-491e-be9b-442686f380c2" width="250"/>
 
 ### 🌙 Home Page (Dark Mode)
+
 <img src="https://github.com/user-attachments/assets/5c14a8a1-c463-47da-b20c-e38c689a3e33" width="250"/>
 
 ### 👤 Profile Page
+
 <img src="https://github.com/user-attachments/assets/cbddecaf-fec6-46e9-8b32-d32a81ebbf50" width="250"/>
 
 ### 🛒 Cart Page
+
 <img src="https://github.com/user-attachments/assets/0de39101-5150-49b5-9f08-9ca324bbdb9c" width="250"/>
 
 ### ⚙️ Settings Page
+
 <img src="https://github.com/user-attachments/assets/7cbf263d-bbea-40d1-98ee-8ca7b6653bc6" width="250"/>
 
 ### 🔐 Login Page
+
 <img src="https://github.com/user-attachments/assets/02ddff78-e4ef-4063-9c71-0eb4fc5ad538" width="250"/>
 
 ### 📝 Signup Page
+
 <img src="https://github.com/user-attachments/assets/95145e5d-2ee5-42ed-a82d-e42de33c5b32" width="250"/>
 
 ---
 
 ## 🚀 Features
 
-- User Authentication (Firebase Email/Password)
-- Persistent Login (Auto-login)
-- Food Menu Display
-- Add to Cart / Remove from Cart
-- Real-time Price Calculation
-- Simple Order Placement Flow
-- State Management using Provider
+* User Authentication (Firebase Email/Password)
+* Persistent Login (Auto-login)
+* Food Menu Display
+* Add to Cart / Remove from Cart
+* Real-time Price Calculation
+* Basic Order Placement Flow
+* State Management using Provider
 
 ---
 
 ## 🛠️ Tech Stack
 
 **Frontend**
-- Flutter (Dart)
+
+* Flutter (Dart)
 
 **State Management**
-- Provider
+
+* Provider
 
 **Backend**
-- Firebase Authentication  
-- Firebase Realtime Database / Firestore  
+
+* Firebase Authentication
+* Firebase Realtime Database / Firestore
 
 ---
 
 ## 📂 Project Structure
+
+```
 lib/
 │
 ├── models/
@@ -86,15 +98,72 @@ lib/
 │
 ├── firebase_options.dart
 └── main.dart
-
+```
 
 ---
 
 ## ⚙️ Setup Instructions
 
 ### 1. Clone Repository
+
+```bash
 git clone https://github.com/your-username/mini_food_ordering.git
 cd mini_food_ordering
+```
 
-###2. Install Dependencies
+### 2. Install Dependencies
+
+```bash
 flutter pub get
+```
+
+### 3. Firebase Setup
+
+* Create a project in Firebase Console
+* Enable Email/Password Authentication
+* Add Android app
+* Download `google-services.json`
+* Place it inside: `android/app/`
+* Run:
+
+```bash
+flutterfire configure
+```
+
+### 4. Run the App
+
+```bash
+flutter run
+```
+
+---
+
+## ⚠️ Limitations
+
+* No payment gateway integration
+* No order tracking system
+* No admin panel
+* UI is basic and not production-ready
+
+---
+
+## 📈 Future Improvements
+
+* Payment Integration (Razorpay / Stripe)
+* Order History & Tracking
+* Push Notifications
+* Admin Dashboard
+* UI/UX Improvements
+
+---
+
+## 👨‍💻 Author
+
+**Tushar Rajput**
+Flutter Developer
+
+---
+
+## ⭐ Support
+
+If you found this project useful, give it a ⭐ on GitHub.
